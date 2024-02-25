@@ -15,10 +15,19 @@ body {
   font-size: 14px;
   background: #fff;
 }
+ruby{
+  display: inline-flex;
+  flex-direction: column-reverse;
+  width: 1.1em;
+  align-items: center;
+  line-height: 1;
+}
 rt {
-  transform: scale(0.8,1);
-  font-size: 0.85em;
-  font-weight: normal;
+transform: scale(0.5,1);
+font-size: 0.85em;
+font-weight: normal;
+white-space: nowrap;
+color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
 }
 .container{
     padding:20px 10px 70px 10px!important;
