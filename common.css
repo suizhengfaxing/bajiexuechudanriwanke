@@ -26,12 +26,12 @@ ruby{
   line-height: 1;
 }
 rt {
-transform: scale(0.5,1);
-font-size: 0.8em;
-font-weight: normal;
-white-space: nowrap;
-color: rgba(100, 65, 37, 0.8); /* 使用半透明颜色值 */
-font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif; 
+  transform: scale(0.5,1);
+  font-size: 0.8em;
+  font-weight: normal;
+  white-space: nowrap;
+  color: rgba(100, 65, 37, 0.8); /* 使用半透明颜色值 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif; 
 }
 /* 自定义字形 */
 .custom-font {
@@ -46,12 +46,16 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingF
   font-family: "楷体", "楷体_GB2312", "SIMKAI";
   word-break:keep-all;  /* 不换行 */
   white-space:nowrap; /* 不换行 */
+  font-weight: normal; /* 取消加粗 */
+  font-size: 0.8em;
 }
 
 .kuoHao_YouPinYin{
   width: 1em; font-family: "楷体", "楷体_GB2312", "SIMKAI";
   word-break:keep-all;  /* 不换行 */
   white-space:nowrap; /* 不换行 */
+  font-weight: normal; /* 取消加粗 */
+  font-size: 0.8em;
 }
 /* 一级标题 */
 .yiJiBiaoTi_p{
